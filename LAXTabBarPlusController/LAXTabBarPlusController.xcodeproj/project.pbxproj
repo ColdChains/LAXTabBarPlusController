@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5744E12A1E8A61330044726C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E1291E8A61330044726C /* AppDelegate.swift */; };
+		5744E12C1E8A61330044726C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E12B1E8A61330044726C /* ViewController.swift */; };
+		5744E12F1E8A61330044726C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5744E12D1E8A61330044726C /* Main.storyboard */; };
+		5744E1311E8A61330044726C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5744E1301E8A61330044726C /* Assets.xcassets */; };
+		5744E1341E8A61330044726C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5744E1321E8A61330044726C /* LaunchScreen.storyboard */; };
+		5744E1411E8A61500044726C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E13B1E8A61500044726C /* RootViewController.swift */; };
+		5744E1421E8A61500044726C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E13C1E8A61500044726C /* MainViewController.swift */; };
+		5744E1431E8A61500044726C /* AttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E13D1E8A61500044726C /* AttentionViewController.swift */; };
+		5744E1441E8A61500044726C /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E13E1E8A61500044726C /* LiveViewController.swift */; };
+		5744E1451E8A61500044726C /* CommuntityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E13F1E8A61500044726C /* CommuntityViewController.swift */; };
+		5744E1461E8A61500044726C /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E1401E8A61500044726C /* MineViewController.swift */; };
+		5744E14A1E8A61770044726C /* LAXTabBarPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E1481E8A61770044726C /* LAXTabBarPlus.swift */; };
+		5744E14B1E8A61770044726C /* LAXTabBarPlusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744E1491E8A61770044726C /* LAXTabBarPlusController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5744E1261E8A61330044726C /* LAXTabBarPlusController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAXTabBarPlusController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5744E1291E8A61330044726C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5744E12B1E8A61330044726C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5744E12E1E8A61330044726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5744E1301E8A61330044726C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5744E1331E8A61330044726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5744E1351E8A61330044726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5744E13B1E8A61500044726C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5744E13C1E8A61500044726C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5744E13D1E8A61500044726C /* AttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionViewController.swift; sourceTree = "<group>"; };
+		5744E13E1E8A61500044726C /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		5744E13F1E8A61500044726C /* CommuntityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommuntityViewController.swift; sourceTree = "<group>"; };
+		5744E1401E8A61500044726C /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		5744E1481E8A61770044726C /* LAXTabBarPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXTabBarPlus.swift; sourceTree = "<group>"; };
+		5744E1491E8A61770044726C /* LAXTabBarPlusController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAXTabBarPlusController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5744E1231E8A61330044726C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5744E11D1E8A61330044726C = {
+			isa = PBXGroup;
+			children = (
+				5744E1281E8A61330044726C /* LAXTabBarPlusController */,
+				5744E1271E8A61330044726C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5744E1271E8A61330044726C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5744E1261E8A61330044726C /* LAXTabBarPlusController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5744E1281E8A61330044726C /* LAXTabBarPlusController */ = {
+			isa = PBXGroup;
+			children = (
+				5744E1291E8A61330044726C /* AppDelegate.swift */,
+				5744E12B1E8A61330044726C /* ViewController.swift */,
+				5744E13B1E8A61500044726C /* RootViewController.swift */,
+				5744E13C1E8A61500044726C /* MainViewController.swift */,
+				5744E13D1E8A61500044726C /* AttentionViewController.swift */,
+				5744E13E1E8A61500044726C /* LiveViewController.swift */,
+				5744E13F1E8A61500044726C /* CommuntityViewController.swift */,
+				5744E1401E8A61500044726C /* MineViewController.swift */,
+				5744E1471E8A61770044726C /* LAXTabBarPlusController */,
+				5744E12D1E8A61330044726C /* Main.storyboard */,
+				5744E1301E8A61330044726C /* Assets.xcassets */,
+				5744E1321E8A61330044726C /* LaunchScreen.storyboard */,
+				5744E1351E8A61330044726C /* Info.plist */,
+			);
+			path = LAXTabBarPlusController;
+			sourceTree = "<group>";
+		};
+		5744E1471E8A61770044726C /* LAXTabBarPlusController */ = {
+			isa = PBXGroup;
+			children = (
+				5744E1481E8A61770044726C /* LAXTabBarPlus.swift */,
+				5744E1491E8A61770044726C /* LAXTabBarPlusController.swift */,
+			);
+			path = LAXTabBarPlusController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5744E1251E8A61330044726C /* LAXTabBarPlusController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5744E1381E8A61330044726C /* Build configuration list for PBXNativeTarget "LAXTabBarPlusController" */;
+			buildPhases = (
+				5744E1221E8A61330044726C /* Sources */,
+				5744E1231E8A61330044726C /* Frameworks */,
+				5744E1241E8A61330044726C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAXTabBarPlusController;
+			productName = LAXTabBarPlusController;
+			productReference = 5744E1261E8A61330044726C /* LAXTabBarPlusController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5744E11E1E8A61330044726C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "冰凉的枷锁";
+				TargetAttributes = {
+					5744E1251E8A61330044726C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5744E1211E8A61330044726C /* Build configuration list for PBXProject "LAXTabBarPlusController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5744E11D1E8A61330044726C;
+			productRefGroup = 5744E1271E8A61330044726C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5744E1251E8A61330044726C /* LAXTabBarPlusController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5744E1241E8A61330044726C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5744E1341E8A61330044726C /* LaunchScreen.storyboard in Resources */,
+				5744E1311E8A61330044726C /* Assets.xcassets in Resources */,
+				5744E12F1E8A61330044726C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5744E1221E8A61330044726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5744E1431E8A61500044726C /* AttentionViewController.swift in Sources */,
+				5744E14B1E8A61770044726C /* LAXTabBarPlusController.swift in Sources */,
+				5744E12C1E8A61330044726C /* ViewController.swift in Sources */,
+				5744E12A1E8A61330044726C /* AppDelegate.swift in Sources */,
+				5744E1461E8A61500044726C /* MineViewController.swift in Sources */,
+				5744E1411E8A61500044726C /* RootViewController.swift in Sources */,
+				5744E1441E8A61500044726C /* LiveViewController.swift in Sources */,
+				5744E1451E8A61500044726C /* CommuntityViewController.swift in Sources */,
+				5744E1421E8A61500044726C /* MainViewController.swift in Sources */,
+				5744E14A1E8A61770044726C /* LAXTabBarPlus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5744E12D1E8A61330044726C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5744E12E1E8A61330044726C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5744E1321E8A61330044726C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5744E1331E8A61330044726C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5744E1361E8A61330044726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5744E1371E8A61330044726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5744E1391E8A61330044726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAXTabBarPlusController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdut.LAXTabBarPlusController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5744E13A1E8A61330044726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAXTabBarPlusController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdut.LAXTabBarPlusController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5744E1211E8A61330044726C /* Build configuration list for PBXProject "LAXTabBarPlusController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5744E1361E8A61330044726C /* Debug */,
+				5744E1371E8A61330044726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5744E1381E8A61330044726C /* Build configuration list for PBXNativeTarget "LAXTabBarPlusController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5744E1391E8A61330044726C /* Debug */,
+				5744E13A1E8A61330044726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5744E11E1E8A61330044726C /* Project object */;
+}
